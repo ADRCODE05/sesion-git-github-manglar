@@ -6,10 +6,10 @@ Este es un sitio web personal desarrollado como parte de la **Prueba de Desempe�
 
 ## 👨‍💻 Información del Desarrollador
 
-- **Nombre:** Carlos Adrian Vellojin
+- **Nombre:** Carlos Adrian Vellojin Vellojin
 - **Clan:** Manglar - Riwi
 - **Correo:** carlosvellojinvellojin@gmail.com
-- **Documento de Identidad:** 12345678910
+- **Documento de Identidad:** 1129496307
 
 ## 🚀 Características Principales
 
@@ -33,27 +33,13 @@ Este es un sitio web personal desarrollado como parte de la **Prueba de Desempe�
    - Implementación de Flexbox y CSS Grid
    - Imágenes y contenido adaptativo
 
-4. **Interactividad**
-   - Transiciones suaves en botones y enlaces
-   - Efectos hover en elementos del portafolio
-   - Menú móvil funcional con animaciones
-   - Formulario de contacto con validación
-   - Filtros de portafolio interactivos
-
 ### 🌟 Puntos Extras Implementados
 
-1. **Estructura por Archivos Separados**
+   **Estructura por Archivos Separados**
    - `index.html` - Página principal con presentación
    - `portfolio.html` - Página dedicada del portafolio
    - `contacto.html` - Página de contacto con formulario completo
    - Navegación coherente entre páginas
-
-2. **Funcionalidades Adicionales**
-   - Sistema de notificaciones
-   - Animaciones de entrada con Intersection Observer
-   - Lazy loading para imágenes
-   - Mejoras de accesibilidad (focus trap, navegación por teclado)
-   - Efectos de scroll en el header
 
 
 ## 🎨 Paleta de Colores
@@ -71,7 +57,6 @@ Este es un sitio web personal desarrollado como parte de la **Prueba de Desempe�
 
 - **HTML5:** Estructura semántica y accesible
 - **CSS3:** Estilos modernos con Flexbox y Grid
-- **JavaScript:** Interactividad y funcionalidades dinámicas
 - **Font Awesome:** Iconografía profesional
 - **Google Fonts:** Tipografía Inter
 - **Responsive Design:** Mobile-first approach
