@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Carlos Vellojin</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header con navegación -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2><a href="index.html">Carlos Vellojin</a></h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portafolio.html" class="nav-link">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacto.html" class="nav-link active">Contacto</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="main">
+        <!-- Hero del contacto -->
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Contacto</h1>
+                <p class="page-subtitle">
+                    ¿Tienes un proyecto en mente? Me encantaría escuchar tus ideas 
+                    y ayudarte a convertirlas en realidad.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección de contacto -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Información de contacto -->
+                    <div class="contact-info">
+                        <h2>Hablemos</h2>
+                        <p class="contact-description">
+                            Estoy disponible para proyectos freelance, colaboraciones 
+                            o simplemente para charlar sobre tecnología y desarrollo web.
+                        </p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Email</h3>
+                                    <p>carlosvellojinvellojin@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Teléfono</h3>
+                                    <p>+57 300 123 4567</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Ubicación</h3>
+                                    <p>Barranquila, Colombia</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Horario</h3>
+                                    <p>Lun - Vie: 9:00 AM - 6:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links-contact">
+                            <h3>Sígueme en redes</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Formulario de contacto -->
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <h2>Envíame un mensaje</h2>
+                            
+                            <div class="form-group">
+                                <label for="name">Nombre completo</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Asunto</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Selecciona un asunto</option>
+                                    <option value="proyecto">Nuevo Proyecto</option>
+                                    <option value="colaboracion">Colaboración</option>
+                                    <option value="consulta">Consulta General</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="budget">Presupuesto estimado</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Selecciona un rango</option>
+                                    <option value="500-1000">$500 - $1,000</option>
+                                    <option value="1000-3000">$1,000 - $3,000</option>
+                                    <option value="3000-5000">$3,000 - $5,000</option>
+                                    <option value="5000+">$5,000+</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="6" required 
+                                    placeholder="Cuéntame sobre tu proyecto, ideas o cualquier pregunta que tengas..."></textarea>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span class="checkmark"></span>
+                                    Quiero recibir actualizaciones sobre nuevos proyectos y artículos
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fas fa-paper-plane"></i>
+                                Enviar Mensaje
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de FAQ -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title">Preguntas Frecuentes</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>¿Cuánto tiempo toma completar un proyecto?</h3>
+                        <p>El tiempo varía según la complejidad del proyecto. Un sitio web básico puede tomar 2-3 semanas, mientras que aplicaciones más complejas pueden requerir 2-3 meses.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Trabajas con clientes internacionales?</h3>
+                        <p>¡Absolutamente! Trabajo con clientes de todo el mundo y estoy disponible para reuniones en diferentes zonas horarias.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Ofreces mantenimiento post-lanzamiento?</h3>
+                        <p>Sí, ofrezco paquetes de mantenimiento que incluyen actualizaciones, respaldos, monitoreo de seguridad y soporte técnico continuo.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Qué tecnologías utilizas?</h3>
+                        <p>Me especializo en React, Next.js, Node.js, y bases de datos modernas. Siempre elijo la tecnología más adecuada para cada proyecto específico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Carlos Vellojin</h3>
+                    <p>Desarrollador Web Full Stack apasionado por crear soluciones innovadoras.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="portfolio.html">Portafolio</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Sígueme</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Carlos Vellojin. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Carlos Vellojin</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header con navegación -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2><a href="index.html">Carlos Vellojin</a></h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link active">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacto.html" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="main">
+        <!-- Hero del portafolio -->
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Mi Portafolio</h1>
+                <p class="page-subtitle">
+                    Explora una selección de mis proyectos más destacados, 
+                    donde combino creatividad y tecnología para crear experiencias únicas.
+                </p>
+            </div>
+        </section>
+
+        <!-- Filtros de proyectos -->
+        <section class="portfolio-filters">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="web">Web Apps</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="design">Diseño</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería de proyectos -->
+        <section class="portfolio-gallery">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- Proyecto 1 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="../Imagenes/Imagenes3/wallpaperflare.com_wallpaper(2).jpg" alt="E-commerce Platform">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>E-commerce Platform</h3>
+                                    <p>Plataforma completa de comercio electrónico</p>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" title="Ver proyecto">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link" title="Ver código">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <p class="project-description">
+                                Plataforma de comercio electrónico completa con carrito de compras, 
+                                sistema de pagos integrado, gestión de inventario y panel de administración. 
+                                Incluye autenticación de usuarios y sistema de reseñas.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Stripe</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Proyecto 2 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="/Imagenes/Imagenes3/wallpaperflare.com_wallpaper(3).jpg" alt="Task Management App">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Task Management App</h3>
+                                    <p>Aplicación de gestión de tareas colaborativa</p>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" title="Ver proyecto">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link" title="Ver código">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-description">
+                                Aplicación web para gestión de tareas con funcionalidades de colaboración 
+                                en tiempo real, notificaciones push, asignación de tareas y seguimiento 
+                                de progreso con gráficos interactivos.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">PWA</span>
+                                <span class="tech-tag">Chart.js</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Proyecto 3 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="/Imagenes/Imagenes3/hola.jpg" alt="Weather Dashboard">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Weather Dashboard</h3>
+                                    <p>Dashboard interactivo del clima</p>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" title="Ver proyecto">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link" title="Ver código">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <p class="project-description">
+                                Dashboard interactivo del clima con gráficos dinámicos, pronósticos 
+                                extendidos, geolocalización automática, alertas meteorológicas y 
+                                comparación de ciudades múltiples.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Chart.js</span>
+                                <span class="tech-tag">API REST</span>
+                                <span class="tech-tag">Geolocation</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Proyecto 4 -->
+                    <article class="project-card" data-category="mobile">
+                        <div class="project-image">
+                            <img src="/Imagenes/Imagenes3/2049.jpg" alt="Fitness Tracker App">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Fitness Tracker App</h3>
+                                    <p>Aplicación móvil para seguimiento fitness</p>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" title="Ver proyecto">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link" title="Ver código">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Fitness Tracker App</h3>
+                            <p class="project-description">
+                                Aplicación móvil para seguimiento de actividad física con contador 
+                                de pasos, monitor de calorías, rutinas personalizadas y sincronización 
+                                con dispositivos wearables.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Redux</span>
+                                <span class="tech-tag">SQLite</span>
+                                <span class="tech-tag">Health Kit</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Proyecto 5 -->
+                    <article class="project-card" data-category="design">
+                        <div class="project-image">
+                            <img src="/Imagenes/Imagenes3/Muertesnow.jpg" alt="Brand Identity Design">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Brand Identity Design</h3>
+                                    <p>Diseño de identidad corporativa completa</p>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" title="Ver proyecto">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link" title="Ver en Behance">
+                                        <i class="fab fa-behance"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Brand Identity Design</h3>
+                            <p class="project-description">
+                                Desarrollo completo de identidad corporativa incluyendo logotipo, 
+                                paleta de colores, tipografía, papelería corporativa y guía de 
+                                uso de marca para startup tecnológica.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Adobe Illustrator</span>
+                                <span class="tech-tag">Figma</span>
+                                <span class="tech-tag">Branding</span>
+                                <span class="tech-tag">UI/UX</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Proyecto 6 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="/Imagenes/Imagenes3/die.jpg" alt="Real Estate Platform">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Real Estate Platform</h3>
+                                    <p>Plataforma inmobiliaria con búsqueda avanzada</p>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" title="Ver proyecto">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link" title="Ver código">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Real Estate Platform</h3>
+                            <p class="project-description">
+                                Plataforma inmobiliaria con búsqueda avanzada por filtros, 
+                                mapas interactivos, tours virtuales, sistema de favoritos 
+                                y chat en tiempo real entre compradores y vendedores.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Maps API</span>
+                                <span class="tech-tag">Socket.io</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Carlos Vellojin</h3>
+                    <p>Desarrollador Web Full Stack apasionado por crear soluciones innovadoras.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="portafolio.html">Portafolio</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Sígueme</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Carlos Vellojin. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
