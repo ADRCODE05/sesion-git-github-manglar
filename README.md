@@ -79,7 +79,6 @@ Este es un sitio web personal desarrollado como parte de la **Prueba de Desempe�
 - Formulario completo con validación
 - Múltiples métodos de contacto
 - Sección de preguntas frecuentes
-- Integración con redes sociales
 
 ## 🔗 Enlaces
 
@@ -88,7 +87,6 @@ Este es un sitio web personal desarrollado como parte de la **Prueba de Desempe�
 ## 📝 Notas de Desarrollo
 
 ### Metodología
-- Enfoque Mobile-First para el diseño responsivo
 - Uso de variables CSS para mantenimiento fácil
 - Código modular y reutilizable
 - Optimización de rendimiento y accesibilidad
