@@ -9,7 +9,7 @@ Este es un sitio web personal desarrollado como parte de la **Prueba de Desempe�
 - **Nombre:** Carlos Adrian Vellojin Vellojin
 - **Clan:** Manglar - Riwi
 - **Correo:** carlosvellojinvellojin@gmail.com
-- **Documento de Identidad:** 1129496307
+- **Documento de Identidad:** 12345678919
 
 ## 🚀 Características Principales
 
