@@ -15,7 +15,7 @@ body {
     color: #333;
     background-color: #ffffff;
 
-    background-image: url('/Imagenes/imagen2/wallpaperflare.com_wallpaper\(2\).jpg');
+    background-image: url('wallpaperflare.com_wallpaper\(2\).jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
